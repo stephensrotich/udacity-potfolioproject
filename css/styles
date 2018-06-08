@@ -1,0 +1,154 @@
+body {
+background-color : #0b1201;
+font-family : 'Raleway', sans-serif;
+width : 100%;
+font-size : 16px;
+line-height : 1.25;
+max-width : 1024px;
+}
+#container {
+width : 100%;
+margin : auto;
+border-radius : 1%;
+margin : 1%;
+}
+.header {
+height : 20%;
+display : flex;
+flex-wrap : wrap;
+position : relative;
+}
+.logo {
+height : 50%;
+}
+img {
+width : 100%;
+float : left;
+}
+.personalid {
+height : 50%;
+text-align : center;
+margin-right : 10px;
+}
+.personalid h1 {
+color : #EF6817;
+}
+.personalid h4 {
+color : #ffffff;
+}
+.headerrule {
+height : 15%;
+width : 100%;
+}
+hr {
+border : 0;
+height : 2px;
+background : #EF6817;
+width : 100%;
+}
+.mainsection {
+height : 30%;
+display : flex;
+flex-wrap : wrap;
+width : 100%;
+}
+.mainimage {
+height : 65%;
+}
+.description1 {
+height : 35%;
+color : #ffffff;
+text-align : left;
+background-color : #EF6817;
+border-radius : 5px;
+padding : 5px;
+}
+.projects {
+height : 5%;
+width : 100%;
+color : #ffffff;
+padding-top : 5px;
+padding-bottom : 1px;
+margin-top : 6px;
+text-align : left;
+}
+.project hr {
+width : 60%;
+}
+#footer {
+width : 100%;
+height : 30%;
+color : #EF6817;
+display : flex;
+flex-wrap : wrap;
+}
+.task1, .task2, .task3 {
+height : 9%;
+margin : 1px;
+padding : 1px;
+width : 100%;
+border : #cccdd6 solid 0.5px;
+}
+.description {
+width : 100%;
+border-radius : 5%;
+}
+a {
+color : #2fa7a6;
+}
+#footer img {
+padding-bottom : 4px;
+}
+@media screen and (min-width:600px) {
+.logo {
+width : 40%;
+}
+.personalid {
+width : 50%;
+float : right;
+text-align : right;
+}
+.task1, .task2 {
+width : 45%;
+border-radius : 5px;
+}
+.task1 {
+margin-right : 25px;
+}
+.task2 {
+margin-left : 25px;
+}
+.task3 {
+height : 15%;
+width : 100%;
+border-radius : 5px;
+}
+}
+@media screen and (min-width:800px) {
+.mainimage {
+width : 45%;
+float : left;
+}
+.description1 {
+width : 45%;
+float : right;
+margin-top : 10%;
+margin-right : 10px;
+box-shadow : 6px 5px 0 0 rgba(247, 225, 245, 0.44);
+}
+#footer {
+color : #EF6817;
+background-color : #ffffff;
+display : flex;
+flex-wrap : wrap;
+align-items : center;
+justify-content : center;
+}
+.task3, .task2, .task1 {
+margin : 1%;
+padding : 1%;
+width : 27%;
+height : 100%;
+border-radius : 5%;
+border : #4ad0c2 solid;
+}
