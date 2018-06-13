@@ -1,3 +1,5 @@
+
+to code or not'to code'.
 # udacity-potfolioproject
 this is part of the udacity front end developer projects
 the images were purchased from www.123rf.com. 
